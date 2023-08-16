@@ -1,20 +1,13 @@
 package dev.b3nedikt.restring.example
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebView
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.TextView
-import androidx.appcompat.widget.ContentFrameLayout
 import androidx.fragment.app.Fragment
 import dev.b3nedikt.app_locale.AppLocale
 import dev.b3nedikt.restring.Restring
-import dev.b3nedikt.reword.Reword
 
 
 class MainFragment : Fragment() {

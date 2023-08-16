@@ -2,6 +2,7 @@ package dev.b3nedikt.restring.example
 
 import android.app.Application
 import android.content.res.Resources
+import android.webkit.WebView
 import dev.b3nedikt.app_locale.AppLocale
 import dev.b3nedikt.restring.Restring
 import dev.b3nedikt.restring.example.Locales.LOCALE_AUSTRIAN_GERMAN

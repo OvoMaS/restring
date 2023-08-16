@@ -7,8 +7,8 @@ plugins {
 }
 
 android {
-    compileSdk = AppConfig.compileSdk
 
+    compileSdk = 33
     defaultConfig {
         minSdk = AppConfig.minSdk
         targetSdk = AppConfig.targetSdk
@@ -21,6 +21,13 @@ android {
         }
     }
     namespace = "dev.b3nedikt.restring"
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+        kotlinOptions {
+            jvmTarget = "17"
+        }
+    }
 }
 
 dependencies {
